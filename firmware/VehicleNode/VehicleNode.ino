@@ -35,3 +35,10 @@ void detectCrash() {
   float totalAccel = sqrt(sq(a.acceleration.x) + sq(a.acceleration.y) + sq(a.acceleration.z));
    
 }
+
+void sendAlert() {
+
+  LoRa.beginPacket();
+  LoRa.print(alertMessage);
+  LoRa.endPacket();
+}  
