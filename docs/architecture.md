@@ -4,7 +4,7 @@
 
 Crashlink is a hybrid emergency alert system for vehicles.
 
-![Architure](..images/architecture/architecture_v1.png)
+![Architecture](..images/architecture/architecture_v1.png)
 
 when cellular network is available then it uses LTE/GSM.
 
