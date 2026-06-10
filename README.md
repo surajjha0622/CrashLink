@@ -40,11 +40,11 @@ LTE is used when coverage exists. LoRa acts as a backup communication network wh
 
 ## PCB Layout
 
-![Vehicle Node](hardware\Vechile_Node\crashlink_vehicle_node_v1.0.png)
+![Vehicle Node](hardware/Vechile_Node/crashlink_vehicle_node_v1.0.png)
 
 
 ## 3D Render
-![3D Render Vehicle Node](hardware\Vechile_Node\crashlink_vehicle_node_v1_3d.png)
+![3D Render Vehicle Node](hardware/Vechile_Node/crashlink_vehicle_node_v1_3d.png)
 
 ## System Architecture
 
