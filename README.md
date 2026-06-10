@@ -16,12 +16,12 @@ CrashLink uses
 LTE is used when coverage exists. LoRa acts as a backup communication network when LTE is unavailable.
 
 ## Current Progress
-- [done] System architecture designed
-- [done] Vehicle Node schematic completed
-- [done] Vehicle Node PCB designed
-- [done] Vehicle Node gerbers generated
-- [done] Relay Node schematics completed
-- [done] Relay Node PCB designed
+- [x] System architecture designed
+- [x] Vehicle Node schematic completed
+- [x] Vehicle Node PCB designed
+- [x] Vehicle Node gerbers generated
+- [x] Relay Node schematics completed
+- [x] Relay Node PCB designed
 - [] Relay Node gerbers generated
 - [] Gateway Node schematics completed
 - [] Gateway Node PCB designed
@@ -30,11 +30,14 @@ LTE is used when coverage exists. LoRa acts as a backup communication network wh
 - [] Firmware development
 
 ## Hardware
+
 - ESP32
 - SX1278 LoRa
 - A7670 LTE
 - NEO-6M GPS
 - MPU6050
+
+Detailed Bill of Materials : [bom.md](docs/bom.md)
 
 ## Images
 
