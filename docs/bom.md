@@ -1,8 +1,8 @@
 # Bill of Materials(BOM)
 
 ## Core Electronics
- | Component | Qty | Purpose | Estimated Cost($)
- |-----------|-----|---------|
+ | Component | Qty | Purpose | Estimated Cost($) |
+ |-----------|-----|---------|-------------------|
  | ESP32 | 4 | vehicle, Relay, Gateway and spare controller|  |
  | SX1278 LoRa Module | 4 | LoRa communication and spare |  |
  | A7670 LTE Module | 3 | Vehicle LTE, Gateway LTE and spare |  |
