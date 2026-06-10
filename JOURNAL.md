@@ -31,16 +31,22 @@ Spent good time setting up VS code setup
 also did some coding not much just wrote structure for all 3 nodes.
 Did a bit extra for Vehicle node and added Detect crash function for it.
 
+![Some Coding](images\Journal\Screenshot 2026-06-05 172452.png)
+
 **Total time spent: 3 hours 25 min**
 
 # June 6: PCB design for Vehicle node
 It felt i forgot everything coz last time i designed was 1.5 years ago.
 somehow I managed to do it although in the end i couldnt fine how to place hole in this easy eda pro software.
 
+![Vehicle Node PCB](images\Journal\Screenshot 2026-06-06 050554.png)
+
 **Total time spent: 4hr 30min**
 
 # June 7 : Architecture Diagram
 Used draw.io to draw diagram of How the whole system will work. I felt amazing after looking at it because it simplified everything in the brain and I could feel the flow of commmunications through it.
+
+![Architecture Diagram](images\architecture\architecture_v1.png)
 
 **Total time spent: 3hr 20min**
 
@@ -49,6 +55,8 @@ I redesigned the Vehicle node PCB and Revised its schematics. I basically re org
 Also i made Relay Node PCB schematics and PCB design
 
 then I pushed the vehicle node PCB design gerbers and images to github.
+
+![Revised Vechicle Node PCB](images\Journal\Screenshot 2026-06-08 035355.png)
 
 **Total time spent: 6hr 10min**
 
