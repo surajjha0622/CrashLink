@@ -31,7 +31,7 @@ Spent good time setting up VS code setup
 also did some coding not much just wrote structure for all 3 nodes.
 Did a bit extra for Vehicle node and added Detect crash function for it.
 
-![Some Coding](images\Journal\Screenshot 2026-06-05 172452.png)
+![Some Coding](images/Journal/June5.0.png)
 
 **Total time spent: 3 hours 25 min**
 
@@ -39,7 +39,7 @@ Did a bit extra for Vehicle node and added Detect crash function for it.
 It felt i forgot everything coz last time i designed was 1.5 years ago.
 somehow I managed to do it although in the end i couldnt fine how to place hole in this easy eda pro software.
 
-![Vehicle Node](images/Journal/June6.png)
+![Vehicle Node](images/Journal/June6.0.png)
 
 **Total time spent: 4hr 30min**
 
@@ -76,7 +76,7 @@ also ended up unsatisfied with the README which i wrote.
 # June 10 : More Documentation => README, BOM
 Spent some good time making BOM and in between i switched to making Readme and felt satifying then i got back to working on the BOM i think its finally done.
 
-![Refined README](images/Journal/June9.png)
+![Refined README](images/Journal/June10.0.png)
 
 **Total time spent: 2hr 30min**
 
