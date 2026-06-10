@@ -39,7 +39,7 @@ Did a bit extra for Vehicle node and added Detect crash function for it.
 It felt i forgot everything coz last time i designed was 1.5 years ago.
 somehow I managed to do it although in the end i couldnt fine how to place hole in this easy eda pro software.
 
-![Vehicle Node PCB](images/Journal/Screenshot 2026-06-06 050554.png)
+![Vehicle Node](images/Journal/June6.png)
 
 **Total time spent: 4hr 30min**
 
@@ -56,19 +56,27 @@ Also i made Relay Node PCB schematics and PCB design
 
 then I pushed the vehicle node PCB design gerbers and images to github.
 
-![ Revised Vechicle Node PCB ](images/Journal/Screenshot 2026-06-08 035355.png)
+![Revised Vechicle Node PCB](images/Journal/June8.0.png)
+![Recording time](images/Journal/June8.1.jpeg)
+![Revised Vechicle Node PCB](images/Journal/June8.2.jpeg)
+
 
 **Total time spent: 6hr 10min**
 
 # June 9 : Documentation => Wrote README.md and spent some time reassesing pcb design
 It is very frustrating to wite out and document things like this but I think this is what makes the other parts more intresting. so yeah i did wrote Readme folder and stared at PCB for few hours and yes very productive hours because i found nothing
 also ended up unsatisfied with the README which i wrote.
+
+![Analysing PCB ](images/Journal/June9.1.jpeg)
+![Analysing PCB ](images/Journal/June9.2.jpeg)
+![Analysing PCB ](images/Journal/June9.3.jpeg)
+
 **Total time spent: 2hr**
 
 # June 10 : More Documentation => README, BOM
 Spent some good time making BOM and in between i switched to making Readme and felt satifying then i got back to working on the BOM i think its finally done.
 
-![Refined README](images/Journal/Screenshot 2026-06-11 023325.png)
+![Refined README](images/Journal/June9.png)
 
 **Total time spent: 2hr 30min**
 
