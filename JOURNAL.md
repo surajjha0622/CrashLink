@@ -39,14 +39,14 @@ Did a bit extra for Vehicle node and added Detect crash function for it.
 It felt i forgot everything coz last time i designed was 1.5 years ago.
 somehow I managed to do it although in the end i couldnt fine how to place hole in this easy eda pro software.
 
-![Vehicle Node PCB](images\Journal\Screenshot 2026-06-06 050554.png)
+![Vehicle Node PCB](images/Journal/Screenshot 2026-06-06 050554.png)
 
 **Total time spent: 4hr 30min**
 
 # June 7 : Architecture Diagram
 Used draw.io to draw diagram of How the whole system will work. I felt amazing after looking at it because it simplified everything in the brain and I could feel the flow of commmunications through it.
 
-![Architecture Diagram](images\architecture\architecture_v1.png)
+![Architecture Diagram](images/architecture/architecture_v1.png)
 
 **Total time spent: 3hr 20min**
 
@@ -56,7 +56,7 @@ Also i made Relay Node PCB schematics and PCB design
 
 then I pushed the vehicle node PCB design gerbers and images to github.
 
-![Revised Vechicle Node PCB](images\Journal\Screenshot 2026-06-08 035355.png)
+![ Revised Vechicle Node PCB ](images/Journal/Screenshot 2026-06-08 035355.png)
 
 **Total time spent: 6hr 10min**
 
@@ -67,6 +67,8 @@ also ended up unsatisfied with the README which i wrote.
 
 # June 10 : More Documentation => README, BOM
 Spent some good time making BOM and in between i switched to making Readme and felt satifying then i got back to working on the BOM i think its finally done.
+
+![Refined README](images/Journal/Screenshot 2026-06-11 023325.png)
 
 **Total time spent: 2hr 30min**
 
