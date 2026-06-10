@@ -5,7 +5,7 @@
  |-----------|-----|---------|-------------------|
  | ESP32 | 4 | vehicle, Relay, Gateway and spare controller| $20 |
  | SX1278 LoRa Module | 4 | LoRa communication and spare | $24 |
- | A7670 LTE Module | 3 | Vehicle LTE, Gateway LTE and spare | $60 |
+ | A7670 LTE Module | 3 | Vehicle LTE, Gateway LTE and spare | $40 |
  | NEO-6M GPS Module | 2 | Vehicle GPS and spare| $12 |
  | MPU6050 | 2 | Vehicle and spare | $4 |
  | Buck converter | 5 | Vehicle 2, Relay 1, Gateway 2| $10 |
@@ -20,7 +20,7 @@
  ## Power System
  | Component | Qty | Purpose | Estimated Cost($) |
  |-----------|-----|---------|-------------------|
- | Li-ion Battery | 6 | Power source and testing | $25 |
+ | Li-ion Battery | 6 | Power source 2 each for Vehicle, Relay & Gateway | $25 |
  | Battery Connector/Holder | 4 | Battery Integration | $3 |
  | BMS/Protection module | 3 | Battery protection | $4 |
 
@@ -58,7 +58,6 @@
  | Soldering Iron | 1 | PCB assembly | $25 |
  | Solder Wire | 1 | Soldering | $5 |
  | Flux | 1 | Soldering | $5 |
- | Helping Hands | 1 | Assembly support | $10 |
  | Fume Extractor | 1 | Indoor solering safety | $20 |
 
 
@@ -70,11 +69,11 @@
  ## Estimates Budget
  | Category | Estimated Cost ($) |
  |----------|--------------------|
- | Core Electronics | $130 |
+ | Core Electronics | $110 |
  | RF Components | $43 |
  | Power System | $32 |
  | PCB Fabrication | $40 |
  | Mechanical Components | $30 |
  | Assembly Components | $16 | 
- | Assembly Tools | $65 |
- | **Total** | $356 |
+ | Assembly Tools | $55 |
+ | **Total** | $326 |
