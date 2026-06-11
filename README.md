@@ -4,8 +4,7 @@
 CrashLink is a hybrid LTE + LoRa based emergency alert system.It enables accident alerts to be transmitted even from areas with no cellular network coverage.
 
 ## Problem
-Many accidents happens in areas with low cellular connectivity which delays the emergency response and
-notifications.
+Many accidents happens in areas with low cellular connectivity which delays in the response time of emergency responders and fatality chances of victims incrreases significnatly.
 
 ## Solutions
 CrashLink uses
