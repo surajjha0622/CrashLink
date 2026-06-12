@@ -16,12 +16,12 @@ LTE is used when coverage exists. LoRa acts as a backup communication network wh
 
 ## Current Progress
 - [x] System architecture designed
-- [x] Vehicle Node schematic completed
-- [x] Vehicle Node PCB designed
-- [x] Vehicle Node gerbers generated
+- [x] Vehicle Node schematic completed[Needs Revision]
+- [x] Vehicle Node PCB designed[Needs Revision]
+- [x] Vehicle Node gerbers generated[Needs Revision]
 - [] Vehicle Node 3D Enclosure file generated
-- [x] Relay Node schematics completed
-- [x] Relay Node PCB designed
+- [x] Relay Node schematics completed[Needs Revision]
+- [x] Relay Node PCB designed[Needs Revision]
 - [] Relay Node gerbers generated
 - [] Relay Node 3D Enclosure file generated
 - [] Gateway Node schematics completed
