@@ -42,9 +42,9 @@ somehow I managed to do it although in the end i couldnt fine how to place hole 
 # June 7: Architecture Diagram
 Used draw.io to draw diagram of How the whole system will work. I felt amazing after looking at it because it simplified everything in the brain and I could feel the flow of commmunications through it.
 
-![Architecture Diagram](assets/images/architecture/architecture_v1.png)
+![Architecture Diagram](assets/images/architecture_v1.png)
 
-![Lapse Recording](https://lapse.hackclub.com/timelapse/MV4wL9otCHe_)
+[Lapse Recording](https://lapse.hackclub.com/timelapse/MV4wL9otCHe_)
 
 **Total time spent: 1 hours 20 minutes**
 
@@ -55,8 +55,8 @@ Also i made Relay Node PCB schematics and PCB design
 then I pushed the vehicle node PCB design gerbers and images to github.
 
 ![Revised Vechicle Node PCB](assets/images/Journal/June8.0.png)
-![Lapse Recording](https://lapse.hackclub.com/timelapse/5CicOemg2tyk)
 ![Revised Vechicle Node PCB](assets/images/Journal/June8.2.jpeg)
+[Lapse Recording](https://lapse.hackclub.com/timelapse/5CicOemg2tyk)
 
 **Total time spent: 4 hours 53 minutes**
 
@@ -98,10 +98,10 @@ Also i didn't include power filter at voltage inputs(Decoupling capacitors).
 
 then I fixed the journal timing thing idk why the hacktime is 1 day behind my actual work whatever....i do have lapse recordingss
 
-![Journal Fixing](https://lapse.hackclub.com/timelapse/1WFZ6ML9bd7k)
-![Research + More Fixing](https://lapse.hackclub.com/timelapse/yP9O9QBxnpig)
-![More Research](https://lapse.hackclub.com/timelapse/8O7ItGtjQ06I)
-![Reviewing past work and more research](https://lapse.hackclub.com/timelapse/ehilIq9ZyCS3)
+[Journal Fixing](https://lapse.hackclub.com/timelapse/1WFZ6ML9bd7k)
+[Research + More Fixing](https://lapse.hackclub.com/timelapse/yP9O9QBxnpig)
+[More Research](https://lapse.hackclub.com/timelapse/8O7ItGtjQ06I)
+[Reviewing past work and more research](https://lapse.hackclub.com/timelapse/ehilIq9ZyCS3)
 
 **Total time 2 hours 30 minutes**
 
@@ -114,7 +114,7 @@ Tbh lots of time it took to search for part number that is there in Easy EDA.
 ![Vehicle Node design](assets/images/Journal/June13.1.png)
 ![Vehicle Node design](assets/images/Journal/June13.2.png)
 ![Lapse PCB Designing](https://lapse.hackclub.com/timelapse/mqEL4IdIFe5i)
-![Lapse PCB Designing](https://lapse.hackclub.com/timelapse/OPMM19FXR9UI)
+[Lapse PCB Designing](https://lapse.hackclub.com/timelapse/OPMM19FXR9UI)
 
 **Total time 4 hours 30 minutes**
 
@@ -129,7 +129,7 @@ Also did some documentation(off the record).
 ![Relay Node design](assets/images/Journal/June14.0.png)
 ![Gateway Node design](assets/images/Journal/June14.1.png)
 
- ![Lapse PCB Designing](https://lapse.hackclub.com/timelapse/YgPzBqFPpGOS)
+ [Lapse PCB Designing](https://lapse.hackclub.com/timelapse/YgPzBqFPpGOS)
  
 
  **Total time 5 hours**
