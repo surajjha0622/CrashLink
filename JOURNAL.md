@@ -79,7 +79,7 @@ also ended up unsatisfied with the README which i wrote.
 ![Analysing PCB ](assets/images/Journal/June9.3.jpeg)
 
 
-**Total time spent: 1hr**
+**Total time spent: 1 hours**
 
 # June 10 : More Documentation => README, BOM
 Spent some good time making BOM and in between i switched to making Readme and felt satifying then i got back to working on the BOM i think its finally done.
@@ -90,7 +90,7 @@ I had to search multiple sites and compare the prices so it took too much time.
 ![Refined README](assets/images/Journal/June10.1.png)
 ![Made BOM](assets/images/Journal/June10.3.png)
 
-**Total time spent: 4 hour**
+**Total time spent: 4 hours**
 
 # June 11 : Completed documentation & and pitched for forge
 Finished importand documentation and submitted my pitch to forge slack channel.
@@ -98,7 +98,7 @@ Important documentation includes Final checks for BOM,README and overr all folde
 
 ![Forge pitch](assets/images/Journal/June11.0.png)
 
-**Total time spent: 1hr**
+**Total time spent: 1 hours**
 
 # June 12 : Big Blunder Reveal
 So I was going through datasheets and doing some design reviews and and and I found out i didn't
@@ -114,7 +114,7 @@ then I fixed the journal timing thing idk why the hacktime is 1 day behind my ac
 - [More Research](https://lapse.hackclub.com/timelapse/8O7ItGtjQ06I)
 - [Reviewing past work and more research](https://lapse.hackclub.com/timelapse/ehilIq9ZyCS3)
 
-**Total time 2 hours 30 minutes**
+**Total time spent: 2 hours 30 minutes**
 
 # June 13 : PCB Design Major part done 
 I sit down with one goal in mind that was to finish the PCB Design work.I got done with the vehicle node pcb and 80% of the relay node aswell.
@@ -128,7 +128,7 @@ Also did some documentation around 30 min
 - [Lapse PCB Designing](https://lapse.hackclub.com/timelapse/mqEL4IdIFe5i)
 - [Lapse PCB Designing](https://lapse.hackclub.com/timelapse/OPMM19FXR9UI)
 
-**Total time 5 hours**
+**Total time spent: 5 hours**
 
 # June 14 : Finishing the job for remaining
  So I had somer unfinished job from the relay node
@@ -144,7 +144,7 @@ Also did some documentation(off the record).
 - [Lapse PCB Designing](https://lapse.hackclub.com/timelapse/YgPzBqFPpGOS)
  
 
- **Total time 5 hours**
+ **Total time spent: 5 hours**
 
 # June 15 : Gateway Node PCB completed
 Finally completed the PCB design for Gateway Node
@@ -156,7 +156,7 @@ also re organized the layout for Vehicle node and Relay node
 ![3D Relay Node](assets/images/Journal/June15.4.jpeg)
 ![PCB Relay Node](assets/images/Journal/June15.5.jpeg)
 - [Lapse PCB Designing](https://lapse.hackclub.com/timelapse/PSA4Y4LY7QzS)
-**Total time 3 hours**
+**Total time spent: 3 hours**
 
 # June 16 : Starting with enclosure Design
 Downloaded and did setup for Fusion 360
@@ -168,7 +168,7 @@ likw basic movements tools inside fusion 360.
 ![Importing File](assets/images/Journal/June16.1.jpeg)
 
 
-**Total time 1 hours**
+**Total time spent: 1 hours**
 
 # June 17 : Found flaws in Vehicle Node PCB Design
 Found some flaws in my vehicle node pcb design
@@ -184,7 +184,7 @@ Explored the data sheets and used AI for debuging this new found issue
 ![Faults Analysis](assets/images/Journal/June17.5.jpeg)
 ![Faults Analysis](assets/images/Journal/June17.6.jpeg)
 
-**Total time 2 hours**
+**Total time spent: 2 hours**
 
 # June 18 : Finally PCB Design done
 I swear this is the final redesign no more change.
@@ -205,7 +205,7 @@ then off the lapse i exported files and did some documentation.
 
 - [Lapse](https://lapse.hackclub.com/timelapse/Fn2Z4zk5b6SL)
 
-**Total time 5 hours**
+**Total time spent: 5 hours**
 
 # June 19 : Started Enclosure Design
 Tried to do Enclosure design but it didn't workout.
@@ -216,7 +216,7 @@ So like I did gave an hour but it took so much time to figure out how this thing
 ![Enclosure Design](assets/images/Journal/June19.3.jpeg)
 ![Enclosure Design](assets/images/Journal/June19.4.jpeg)
 
-**Total time 1 hours**
+**Total time spent: 1 hours**
 
 # June 20 : Enclosure Design completed
 
@@ -232,7 +232,7 @@ After all this did some documentation took around 20 min
 ![Enclosure Design](assets/images/Journal/June20.1.png)
 ![Enclosure Design](assets/images/Journal/June20.2.png)
 
-**Total time 5 hours**
+**Total time spent: 5 hours**
 
 # June 21 : Final design documentation
 - Exported PCB and Enclosure designs
@@ -244,4 +244,4 @@ After all this did some documentation took around 20 min
 ![Documentation](assets/images/Journal/June21.0.png)
 ![Documentation](assets/images/Journal/June21.1.png)
 
-**Total time 2 hours**
+**Total time spent: 2 hours**
