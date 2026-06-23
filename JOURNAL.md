@@ -108,7 +108,7 @@ Also i didn't include power filter at voltage inputs(Decoupling capacitors).
 
 then I fixed the journal timing thing idk why the hacktime is 1 day behind my actual work whatever....i do have lapse recordings.
 
-![Lapse screenshot](assets/images/Journal/12.0)
+![Lapse screenshot](assets/images/Journal/June12.0.png)
 - [Journal Fixing](https://lapse.hackclub.com/timelapse/1WFZ6ML9bd7k)
 - [Research + More Fixing](https://lapse.hackclub.com/timelapse/yP9O9QBxnpig)
 - [More Research](https://lapse.hackclub.com/timelapse/8O7ItGtjQ06I)
