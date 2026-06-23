@@ -14,20 +14,55 @@ CrashLink uses
 
 LTE is used when coverage exists. LoRa acts as a backup communication network when LTE is unavailable.
 
+## System Architecture
+
+![Architecture](images/architecture/architecture_v1.png)
+
+## Vehicle Node
+
+### PCB View
+
+![Vehicle Node](hardware/pcb/vechile_node/PCB_vn_v1.png)
+![2D Top](hardware/pcb/vechile_node/2D_vn_top_v1.png)
+![2D Bottom](hardware/pcb/vechile_node/2D_vn_bottom_v1.png)
+![3D Render Vehicle Node](hardware/pcb/vechile_node/3D_vn_v1.png)
+![Enclosure](assets/images/Journal/June20.0.png)
+
+## Relay Node
+
+### PCB View
+
+![Relay Node](hardware/pcb/relay_node/PCB_rn_v1.png)
+![2D Top](hardware/pcb/relay_node/2D_rn_top_v1.png)
+![2D Bottom](hardware/pcb/relay_node/2D_rn_bottom_v1.png)
+![3D Render Relay Node](hardware/pcb/relay_node/3D_rn_v1.png)
+![Enclosure](assets/images/Journal/June20.2.png)
+
+## Gateway Node
+
+### PCB View
+
+![Gateway Node](hardware/pcb/gateway_node/PCB_gn_v1.png)
+![2D Top](hardware/pcb/gateway_node/2D_gn_top_v1.png)
+![2D Bottom](hardware/pcb/gateway_node/2D_gn_bottom_v1.png)
+![3D Render Gateway Node](hardware/pcb/gateway_node/3D_gn_v1.png)
+![Enclosure](assets/images/Journal/June20.1.png)
+
+
 ## Current Progress
 - [x] System architecture designed
 - [x] Vehicle Node schematic completed
 - [x] Vehicle Node PCB designed
 - [x] Vehicle Node gerbers generated
-- [] Vehicle Node 3D Enclosure file generated
+- [x] Vehicle Node 3D Enclosure file generated
 - [x] Relay Node schematics completed
 - [x] Relay Node PCB designed
 - [x] Relay Node gerbers generated
-- [] Relay Node 3D Enclosure file generated
+- [x] Relay Node 3D Enclosure file generated
 - [x] Gateway Node schematics completed
 - [x] Gateway Node PCB designed
 - [x] Gateway Node gerbers generated
-- [] Gateway Node 3D Enclodure file generated
+- [x] Gateway Node 3D Enclodure file generated
 - [] Prototype assembly
 - [] Firmware development
 
@@ -40,41 +75,5 @@ LTE is used when coverage exists. LoRa acts as a backup communication network wh
 - MPU6050
 
 Detailed Bill of Materials : [bom.md](docs/bom.md)
-
-## System Architecture
-
-![Architecture](images/architecture/architecture_v1.png)
-
-## Vehicle Node
-
-### PCB View
-
-![Vehicle Node](hardware/pcb/vechile_node/PCB_vehicle_node_v1.png)
-
-
-### 3D Render
-![3D Render Vehicle Node](hardware/pcb/vechile_node/3D_vehicle_node_v1.png)
-
-
-## Relay Node
-
-### PCB View
-
-![Relay Node](hardware/pcb/relay_node/PCB_relay_node_v1.png)
-
-
-### 3D Render
-![3D Render Relay Node](hardware/pcb/relay_node/3D_relay_node_v1.png)
-
-
-## Gateway Node
-
-### PCB View
-
-![Gateway Node](hardware/pcb/gateway_node/PCB_gateway_node_v1.png)
-
-
-### 3D Render
-![3D Render Gateway Node](hardware/pcb/gateway_node/3D_gateway_node_v1.png)
 
 
