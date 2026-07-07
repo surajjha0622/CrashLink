@@ -1,0 +1,31 @@
+Category,Component,Qty,Purpose,Estimated Cost ($)
+Core Electronics,ESP32,4,"Vehicle, Relay, Gateway and spare controller",20
+Core Electronics,SX1278 LoRa Module,4,"LoRa communication and spare",24
+Core Electronics,A7670 LTE Module,3,"Vehicle LTE, Gateway LTE and spare",40
+Core Electronics,NEO-6M GPS Module,2,"Vehicle GPS and spare",12
+Core Electronics,MPU6050,2,"Vehicle and spare",4
+Core Electronics,Buck Converter,5,"Vehicle 2, Relay 1, Gateway 2",10
+RF Components,LoRa Antenna,4,"Vehicle, Relay, Gateway and spare",12
+RF Components,LTE Antenna,3,"Vehicle, Relay, Gateway and spare",15
+RF Components,U.FL/IPEX Cable,8,"Antenna connections",16
+Power System,Li-ion Battery,6,"Power source (2 each for Vehicle, Relay & Gateway)",25
+Power System,Battery Connector/Holder,4,"Battery integration",3
+Power System,BMS/Protection Module,3,"Battery protection",4
+PCB Fabrication,Vehicle Node PCB,5,"Prototype fabrication",15
+PCB Fabrication,Relay Node PCB,5,"Prototype fabrication",10
+PCB Fabrication,Gateway Node PCB,5,"Prototype fabrication",15
+Mechanical Components,3D Printed Vehicle Enclosure,1,Housing,10
+Mechanical Components,3D Printed Relay Enclosure,1,Housing,8
+Mechanical Components,3D Printed Gateway Enclosure,1,Housing,10
+Mechanical Components,"M3 Screws, Nuts & Standoffs",1 Kit,Assembly,2
+Assembly Components,LEDs,10,"Status indication",1
+Assembly Components,Push Buttons,5,"User interaction",1
+Assembly Components,Header Pins,2 Packs,"Module connections",3
+Assembly Components,JST Connectors,10,"Battery and power connections",2
+Assembly Components,Screw Terminals,10,Wiring,2
+Assembly Components,Jumper Wires,1 Kit,Prototyping,3
+Assembly Components,Heat Shrink Tubing,1 Kit,"Wire insulation",4
+Assembly Tools,Soldering Iron,1,"PCB assembly",25
+Assembly Tools,Solder Wire,1,Soldering,5
+Assembly Tools,Flux,1,Soldering,5
+Assembly Tools,Fume Extractor,1,"Indoor soldering safety",20
