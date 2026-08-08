@@ -82,7 +82,7 @@ also ended up unsatisfied with the README which i wrote.
 **Total time spent: 1 hours**
 
 # June 10 : More Documentation => README, BOM
-Spent some good time making BOM and in between i switched to making Readme and felt satifying then i got back to working on the BOM i think its finally done.
+Spent some good time making BOM and in between I revisited to write Readme and i think its well written now... then i got back to working on the BOM i think its finally done.
 I had to search multiple sites and compare the prices so it took too much time.
 
 
@@ -120,7 +120,7 @@ then I fixed the journal timing thing idk why the hacktime is 1 day behind my ac
 I sit down with one goal in mind that was to finish the PCB Design work.I got done with the vehicle node pcb and 80% of the relay node aswell.
 used reference designs from Datasheets and also added the sim socket which i missed last time.
 Tbh lots of time it took to search for part number that is there in Easy EDA.
-Also did some documentation around 30 min
+
 
 ![Vehicle Node design](assets/images/Journal/June13.0.png)
 ![Vehicle Node design](assets/images/Journal/June13.1.png)
@@ -128,7 +128,9 @@ Also did some documentation around 30 min
 - [Lapse PCB Designing](https://lapse.hackclub.com/timelapse/mqEL4IdIFe5i)
 - [Lapse PCB Designing](https://lapse.hackclub.com/timelapse/OPMM19FXR9UI)
 
-**Total time spent: 5 hours**
+Also did some documentation around 30 min
+
+**Total time spent: 4 hours 45 minutes**
 
 # June 14 : Finishing the job for remaining
  So I had somer unfinished job from the relay node
@@ -136,12 +138,12 @@ Also did some documentation around 30 min
  at starting i thought it would be just a cope paste thing as schematics etc are same and yes it did made it a bit easy but the challanging part came....components placement and routing.
  I did complete the relay node pcb designing and exported them to push on github.
 
-Also did some documentation(off the record).
-
 ![Relay Node design](assets/images/Journal/June14.0.png)
 ![Gateway Node design](assets/images/Journal/June14.1.png)
 
 - [Lapse PCB Designing](https://lapse.hackclub.com/timelapse/YgPzBqFPpGOS)
+
+Also did some documentation around 25 min.
  
 
  **Total time spent: 5 hours**
@@ -156,7 +158,7 @@ also re organized the layout for Vehicle node and Relay node
 ![3D Relay Node](assets/images/Journal/June15.4.jpeg)
 ![PCB Relay Node](assets/images/Journal/June15.5.jpeg)
 - [Lapse PCB Designing](https://lapse.hackclub.com/timelapse/PSA4Y4LY7QzS)
-**Total time spent: 3 hours**
+**Total time spent: 2 hours 40 minutes**
 
 # June 16 : Starting with enclosure Design
 Downloaded and did setup for Fusion 360
@@ -192,8 +194,6 @@ Finally I did follow everything as per whatever i found in the datasheets
 I redesigned the schematics of vehicle node then reorganized
 all the nodes PCB designs enjoy the lapse.
 
-then off the lapse i exported files and did some documentation.
-
 ![PCB Design](assets/images/Journal/June18.0.jpeg)
 ![PCB Design](assets/images/Journal/June18.1.jpeg)
 ![PCB Design](assets/images/Journal/June18.2.jpeg)
@@ -205,7 +205,9 @@ then off the lapse i exported files and did some documentation.
 
 - [Lapse](https://lapse.hackclub.com/timelapse/Fn2Z4zk5b6SL)
 
-**Total time spent: 5 hours**
+then off the lapse i exported files and did some documentation.
+
+**Total time spent: 4 hours 30 minutes**
 
 # June 19 : Started Enclosure Design
 Tried to do Enclosure design but it didn't workout.
@@ -226,11 +228,12 @@ Finally Done with the Enclosure Designing
 - **GatewayCase** Past learning showed up here and got done with the
  designing in just 45 min.
 
-After all this did some documentation took around 20 min
 
 ![Enclosure Design](assets/images/Journal/June20.0.png)
 ![Enclosure Design](assets/images/Journal/June20.1.png)
 ![Enclosure Design](assets/images/Journal/June20.2.png)
+
+After all this did some documentation took around 20 min
 
 **Total time spent: 5 hours**
 
@@ -245,3 +248,21 @@ After all this did some documentation took around 20 min
 ![Documentation](assets/images/Journal/June21.1.png)
 
 **Total time spent: 2 hours**
+
+# August 5 : RF matching network fix
+
+Got the feedback about the lack of  pi-matching network so
+I fixed it as per the reference design of A7670C-LANS datasheet.
+
+I am still not sure of the trace width so it might need some change.
+firstly I started with the vehical node pi matching network for A7670
+then I did it for GPS aswell but but I dont  think it was needed for the GPS.
+
+- [Lapse](http://lapse.hackclub.com/timelapse/U3hexZDmZmPl)
+- [Lapse](https://lapse.hackclub.com/timelapse/aronYUaw0zdo)
+- [Lapse](https://lapse.hackclub.com/timelapse/7AQ2QLC01Yy2)
+
+Although I finished this still i do feel something is missing here.
+
+**Total time spent: 3 hours 10 minutes**
+
