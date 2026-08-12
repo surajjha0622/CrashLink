@@ -254,6 +254,11 @@ After all this did some documentation took around 20 min
 Got the feedback about the lack of  pi-matching network so
 I fixed it as per the reference design of A7670C-LANS datasheet.
 
+![Documentation](assets/images/Journal/August5.0.png)
+![Documentation](assets/images/Journal/August5.1.png)
+![Documentation](assets/images/Journal/August5.2.png)
+
+
 I am still not sure of the trace width so it might need some change.
 firstly I started with the vehical node pi matching network for A7670
 then I did it for GPS aswell but but I dont  think it was needed for the GPS.
@@ -266,3 +271,87 @@ Although I finished this still i do feel something is missing here.
 
 **Total time spent: 3 hours 10 minutes**
 
+# August 7 : Reviewing the designs and Finding Flaws
+
+After looking at my current design which uses ESP32 Waveshare Board(An expensive board around 11 dollars)
+so I made my mind to reduce the cost by droping the ESP32 Waveshare devkit board.
+I researched a bit and found out that ESP-32 WROOM32E N8 module is a good alternative
+and its better to redesign the board around this module instead of using  devkit.
+
+![Documentation](assets/images/Journal/August7.0.png)
+
+so I searched for the datasheets and got ESP32 devkitC v4 reference designs
+which was very reliable so i decided to use it as an Inspiration.
+
+![Documentation](assets/images/Journal/August7.1.png)
+
+Also I decided to Replace the NEO6m with MAX-M10S as this is newer module
+and multiple hardware creators and forums suggested using this one(since i was already gonna be redesigning so no issues).
+
+![Documentation](assets/images/Journal/August7.2.png)
+
+The new GPS module also contains internal LNA and SAW filters making it more reliable and less hassle.
+**Total time spent: 35 minutes**
+
+# August 9 : Updating the Schematics with new Components & correcting past mistakes
+
+Corrected mistakes in the MPU-6050 by following the Datasheets & took Some help from AI aswell as I was completely stuck.
+I could not find much of reference designs for this so I used external reference from adafruit's design.
+![Documentation](assets/images/Journal/August9.0.png)
+
+Added new components GPS(MAX-M10S) Spent good time on Reading its Datasheets and closely following its Reference designs.
+
+![Documentation](assets/images/Journal/August9.1.png)
+
+- [Lapse](https://lapse.hackclub.com/timelapse/a8KgVX0sD21Z)
+
+**Total time spent: 1 hours 19 minutes**
+
+# August 10 : Completed Schematics and Made it look less messy
+
+Started updating where i left yesterday.
+![Documentation](assets/images/Journal/August10.0.png)
+struggled in finding the right connections and spent whole lot of time in the Datasheets and reference designs and also took some AI help in knowing if i am getting the things right or not.
+![Documentation](assets/images/Journal/August10.1.png)
+for example I replaced the nomal USB connector to USB C for programming
+![Documentation](assets/images/Journal/August10.2.png)
+![Documentation](assets/images/Journal/August10.3.png)
+and i got stuck at doing the connections right since things got different from reference designs .
+![Documentation](assets/images/Journal/August10.4.png)
+![Documentation](assets/images/Journal/August10.5.png)
+
+then i re checked everything and made  the GSM cluttered seperated parts into one block
+
+I also re organized the whole schematics to make it look good  like boxed the different sections and wrote what each sections do.
+
+-[Lapse](https://lapse.hackclub.com/timelapse/juxAB3uTijgG)
+
+**Total time spent: 4 hours**
+
+# August 12 : Sanity check myself plus AI(Ai not reliable I know)
+
+So I Had Almost completed the Schematics and organized it as well
+but while doing this 4 hr session my brain got fried and i did many mistakes.
+
+![Documentation](assets/images/Journal/August12.0.png)
+
+I already had this feeling so I decided to match the schematics resistor by resitor and capaxitor by capacitor to see if each value matches or not.
+![Documentation](assets/images/Journal/August12.1.png)
+![Documentation](assets/images/Journal/August12.2.png)
+![Documentation](assets/images/Journal/August12.3.png)
+![Documentation](assets/images/Journal/August12.4.png)
+![Documentation](assets/images/Journal/August12.5.png)
+AI Flagged Many issues which I crosschecked with the Datasheets
+
+-There were some issues with value of resisors and capacitors for many connections which i fixed.
+-Two switches for EN & IO0 was not connected so I fixed that issue aswell
+-Then I did sent Ai to check if everything is okay or should I change things 
+-They gave some useful and some suspicious insights 
+-Two pins AD0 and FSYNC was left floating (Good insight)
+-REGPIN needs to be connected to capacitor(It was already connected lol)
+-A7670 rF matching circuit being different from datasheets(it wasnt i checked or maybe if it was i will ask reviewrs to flag it idk)
+-MAX-M10S needs filter circuit(The datasheet said its not needed as internal filter(LNA & SAW) Provides enough gain even with passive antenna and no matching network still I added one matching circuit)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/Z1DkRJ5dDHLi)
+
+**Total time spent: 2 hours 50 minutes**
