@@ -12,13 +12,13 @@ The system consists of three different node types that work together to ensure e
 
 ---
 
-## 🚨 Problem
+##  Problem
 
 Road accidents frequently occur in remote areas where cellular connectivity is unreliable or unavailable. This can delay emergency notifications, increasing response time and reducing the chances of timely medical assistance.
 
 ---
 
-## 💡 Solution
+##  Solution
 
 CrashLink consists of three node types:
 
@@ -42,22 +42,16 @@ If LTE is unavailable, CrashLink automatically switches to a LoRa relay network,
 
 #  Vehicle Node
 
-### PCB Layout
-
-<p align="center">
-<img src="hardware/pcb/vechile_node/PCB_vn_v1.png" width="800">
-</p>
-
 ### PCB Views
 
 | Top | Bottom |
 |------|---------|
-| ![](hardware/pcb/vechile_node/2D_vn_top_v1.png) | ![](hardware/pcb/vechile_node/2D_vn_bottom_v1.png) |
+| ![](hardware/pcb/2D_Node1,3_Top.png) | ![](hardware/pcb/2D_Node1,3_Bottom.png) |
 
 ### 3D Model
 
 <p align="center">
-<img src="hardware/pcb/vechile_node/3D_vn_v1.png" width="700">
+<img src="hardware/pcb/3D_Node1,3.png" width="700">
 </p>
 
 ### Enclosure
@@ -70,22 +64,17 @@ If LTE is unavailable, CrashLink automatically switches to a LoRa relay network,
 
 #  Relay Node
 
-### PCB Layout
-
-<p align="center">
-<img src="hardware/pcb/relay_node/PCB_rn_v1.png" width="800">
-</p>
 
 ### PCB Views
 
 | Top | Bottom |
 |------|---------|
-| ![](hardware/pcb/relay_node/2D_rn_top_v1.png) | ![](hardware/pcb/relay_node/2D_rn_bottom_v1.png) |
+| ![](hardware/pcb/relay_node/2D_RNode_Top.png) | ![](hardware/pcb/2D_RNode_Bottom.png) |
 
 ### 3D Model
 
 <p align="center">
-<img src="hardware/pcb/relay_node/3D_rn_v1.png" width="700">
+<img src="hardware/pcb/3D_RNode.png" width="700">
 </p>
 
 ### Enclosure
@@ -98,22 +87,16 @@ If LTE is unavailable, CrashLink automatically switches to a LoRa relay network,
 
 #  Gateway Node
 
-### PCB Layout
-
-<p align="center">
-<img src="hardware/pcb/gateway_node/PCB_gn_v1.png" width="800">
-</p>
-
 ### PCB Views
 
 | Top | Bottom |
 |------|---------|
-| ![](hardware/pcb/gateway_node/2D_gn_top_v1.png) | ![](hardware/pcb/gateway_node/2D_gn_bottom_v1.png) |
+| ![](hardware/pcb/2D_Node1,3_Top.png) | ![](hardware/pcb/2D_Node1,3_Bottom.png) |
 
 ### 3D Model
 
 <p align="center">
-<img src="hardware/pcb/gateway_node/3D_gn_v1.png" width="700">
+<img src="hardware/pcb/3D_Node1,3.png" width="700">
 </p>
 
 ### Enclosure
@@ -124,39 +107,84 @@ If LTE is unavailable, CrashLink automatically switches to a LoRa relay network,
 
 ---
 
-# 📊 Current Progress
+#  BOM
 
-- [x] System architecture designed
-- [x] Vehicle Node schematic
-- [x] Vehicle Node PCB
-- [x] Vehicle Node Gerbers
-- [x] Vehicle Node enclosure
-- [x] Relay Node schematic
-- [x] Relay Node PCB
-- [x] Relay Node Gerbers
-- [x] Relay Node enclosure
-- [x] Gateway Node schematic
-- [x] Gateway Node PCB
-- [x] Gateway Node Gerbers
-- [x] Gateway Node enclosure
-- [ ] Prototype assembly
-- [ ] Firmware development
-- [ ] Field testing
+## Core Electronics
+ | Component | Qty | Purpose | Estimated Cost($) |
+ |-----------|-----|---------|-------------------|
+ | ESP32 | 3 | vehicle, Relay, Gateway controller| $15 |
+ | SX1278 LoRa Module | 3 | LoRa communication  | $18 |
+ | A7670 LTE Module | 2 | Vehicle LTE, Gateway LTE | $28 |
+ | MAX10S GPS Module | 1 | Vehicle GPS | $12 |
+ | MPU6050 | 1 | Vehicle | $4 |
+ | Buck converter | 5 | Vehicle 2, Relay 1, Gateway 2| $10 |
+ 
+ ## RF Components
+ | Component | Qty | Purpose | Estimated Cost($) |
+ |-----------|-----|---------|-------------------|
+ | LoRa antenna | 3 | vehicle, Relay, Gateway | $9 |
+ | LTE Antenna | 2 | Vehicle, Relay, Gateway | $10 |
+ | U.FL/IPEX Cable | 8 | Antenna connections | $16 |
 
----
+ ## Power System
+ | Component | Qty | Purpose | Estimated Cost($) |
+ |-----------|-----|---------|-------------------|
+ | Li-ion Battery | 3 | Power source 1 each for Vehicle, Relay & Gateway | $25 |
+ | Battery Connector/Holder | 4 | Battery Integration | $3 |
+ | BMS/Protection module | 3 | Battery protection | $4 |
 
-# 🔩 Hardware
+## PCB Fabrication
+| Component | Qty | Purpose | Estimated Cost($) |
+ |-----------|-----|---------|-------------------|
+ | Vehicle Node PCB | 5 | Protoype fabrication |$15  |
+ | Relay Node PCB | 5 | Protoype fabrication | $10 |
+ | Gateway Node PCB | 5 | Protoype fabrication | $15 |
 
-- ESP32
-- SX1278 LoRa Module
-- A7670C-LANS LTE Module
-- NEO-6M GPS Module
-- MPU6050 IMU
+## Mechanical Components
+ | Component | Qty | Purpose | Estimated Cost($) |
+ |-----------|-----|---------|-------------------|
+ |3D Printed Vehicle Enclosure | 1 | Housing | $10 |
+ |3D Printed Vehicle Enclosure | 1 | Housing | $8 |
+ |3D Printed Vehicle Enclosure | 1 | Housing | $10 |
+ | M3 Screws Nuts & Standoffs | 1 Kit | assembly | $2 |
 
-📄 **Detailed Bill of Materials:** [docs/bom.md](docs/bom.md)
 
----
+## Assembly Components
+ 
+ | Component | Qty | Purpose | Estimated Cost($) |
+ |-----------|-----|---------|-------------------|
+ | LEDs | 10 | status indication  | $1  |
+ | Push Buttons | 5 | User interaction | $1 |
+ | Header pins | 2 Packs | Module connections| $3 |
+ | JST connectors | 10 | battery and Power connections| $2 |
+ | Screw terminals | 10 | Wiring | $2 |
+ | Jumper Wires | 1 Kit | Prototyping | $3 |
+ | Heat Shrink Tubing | 1 Kit | wire insulation | $4 |
 
-# 📜 License
+ ## Assembly Tools
+ | Component | Qty | Purpose | Estimated Cost($) |
+ |-----------|-----|---------|-------------------|
+ | Soldering Station | 1 | PCB assembly | $45 |
+ | Solder Wire | 1 | Soldering | $5 |
+ | Flux | 1 | Soldering | $5 |
+ | Fume Extractor | 1 | Indoor solering safety | $20 |
+
+
+## Notes
+ - Quantities may be adjusted during prototype testing and validiation.
+
+ ## Estimates Budget
+ | Category | Estimated Cost ($) |
+ |----------|--------------------|
+ | Core Electronics | $87 |
+ | RF Components | $35 |
+ | Power System | $32 |
+ | PCB Fabrication | $40 |
+ | Mechanical Components | $30 |
+ | Assembly Components | $16 | 
+ | Assembly Tools | $75 |
+ | **Total** | $315 |
+
+#  License
 
 This project is licensed under the MIT License.
