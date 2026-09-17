@@ -69,7 +69,7 @@ If LTE is unavailable, CrashLink automatically switches to a LoRa relay network,
 
 | Top | Bottom |
 |------|---------|
-| ![](hardware/pcb/relay_node/2D_RNode_Top.png) | ![](hardware/pcb/2D_RNode_Bottom.png) |
+| ![](hardware/pcb/2D_RNode_Top.png) | ![](hardware/pcb/2D_RNode_Bottom.png) |
 
 ### 3D Model
 
