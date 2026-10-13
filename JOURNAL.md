@@ -257,6 +257,11 @@ I fixed it as per the reference design of A7670C-LANS datasheet.
 ![Documentation](assets/images/Journal/August5.0.png)
 ![Documentation](assets/images/Journal/August5.1.png)
 ![Documentation](assets/images/Journal/August5.2.png)
+![Documentation](assets/images/Journal/August5.3.png)
+![Documentation](assets/images/Journal/August5.4.png)
+![Documentation](assets/images/Journal/August5.5.png)
+![Documentation](assets/images/Journal/August5.6.png)
+![Documentation](assets/images/Journal/August5.7.png)
 
 
 I am still not sure of the trace width so it might need some change.
@@ -297,11 +302,13 @@ The new GPS module also contains internal LNA and SAW filters making it more rel
 
 Corrected mistakes in the MPU-6050 by following the Datasheets & took Some help from AI aswell as I was completely stuck.
 I could not find much of reference designs for this so I used external reference from adafruit's design.
-![Documentation](assets/images/Journal/August9.0.png)
 
 Added new components GPS(MAX-M10S) Spent good time on Reading its Datasheets and closely following its Reference designs.
 
+![Documentation](assets/images/Journal/August9.0.png)
 ![Documentation](assets/images/Journal/August9.1.png)
+![Documentation](assets/images/Journal/August9.2.png)
+![Documentation](assets/images/Journal/August9.3.png)
 
 - [Lapse](https://lapse.hackclub.com/timelapse/a8KgVX0sD21Z)
 
@@ -340,7 +347,7 @@ I already had this feeling so I decided to match the schematics resistor by resi
 ![Documentation](assets/images/Journal/August12.2.png)
 ![Documentation](assets/images/Journal/August12.3.png)
 ![Documentation](assets/images/Journal/August12.4.png)
-![Documentation](assets/images/Journal/August12.5.png)
+
 AI Flagged Many issues which I crosschecked with the Datasheets
 
 -There were some issues with value of resisors and capacitors for many connections which i fixed.
@@ -355,3 +362,209 @@ AI Flagged Many issues which I crosschecked with the Datasheets
 -[Lapse](https://lapse.hackclub.com/timelapse/Z1DkRJ5dDHLi)
 
 **Total time spent: 2 hours 50 minutes**
+
+# August 17 : Redesigned the Schematics based on reviews from forums
+
+I did redesign the schematis based on the reviews I recieved from forums.
+I had to change the GND and VCC lables oriantation to make it more clear and readable.
+Since I didnt have much experience in designing schematics I was not aware of the best practices 
+and also I did some mistakes in the schematics which were pointed out by the reviewers.
+So while correcting the mistakes I decided to make the schematics more readable and clear by changing the orientation of GND and VCC lables.
+
+![Documentation](assets/images/Journal/August17.0.png)
+![Documentation](assets/images/Journal/August17.1.png)
+![Documentation](assets/images/Journal/August17.2.png)
+![Documentation](assets/images/Journal/August17.3.png)
+![Documentation](assets/images/Journal/August17.4.png)
+![Documentation](assets/images/Journal/August17.5.png)
+![Documentation](assets/images/Journal/August17.6.png)
+![Documentation](assets/images/Journal/August17.7.png)
+![Documentation](assets/images/Journal/August17.8.png)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/NjYyMp_WeuBR)
+
+**Total time spent: 3 hours**
+
+# August 23 : Components Placement
+
+Did some components placement for the Vehicle Node PCB.
+
+![Documentation](assets/images/Journal/August23.0.png)
+![Documentation](assets/images/Journal/August23.1.png)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/4TAuZ8aOGD1O)
+
+**Total time spent: 10 minutes**
+
+# August 24 : Rechecking the schematics 
+
+Rechecked schematics to make sure everything is correct before components placement.
+
+![Documentation](assets/images/Journal/August24.0.png)
+![Documentation](assets/images/Journal/August24.1.png)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/4WwzJtN6IJTy)
+
+**Total time spent: 11 minutes**
+
+# August 30 : Schematics final review and components layout
+
+Reviewed the schematics again and started components placement for the Vehicle Node PCB.
+I was making sure things are right so I dont have to do it all over again and waste more time.
+
+![Documentation](assets/images/Journal/August30.0.png)
+![Documentation](assets/images/Journal/August30.1.png)
+![Documentation](assets/images/Journal/August30.2.png)
+![Documentation](assets/images/Journal/August30.3.png)
+![Documentation](assets/images/Journal/August30.4.png)
+![Documentation](assets/images/Journal/August30.5.png)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/gtR_OZKRY4YQ)
+-[Lapse](https://lapse.hackclub.com/timelapse/MzfHQj-2OC5a)
+-[Lapse](https://lapse.hackclub.com/timelapse/2r6uieEUwuba)
+
+**Total time spent: 3 hours 7 minutes**
+
+
+# August 31 : PCB Routing
+
+Started where I left yesterday and did some PCB routing for the Vehicle Node PCB.
+Calculated the trace width for different current carrying traces and also calculated the impedance for the RF traces.
+
+![Documentation](assets/images/Journal/August31.0.png)
+![Documentation](assets/images/Journal/August31.1.png)
+![Documentation](assets/images/Journal/August31.2.png)
+![Documentation](assets/images/Journal/August31.3.png)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/r-711xNIIBVX)
+
+**Total time spent: 56 minutes**
+
+# September 11 : PCB Routing continued
+Continued PCB routing for the Vehicle Node PCB.
+I couldn't complete the routing for thr vehicle node PCB due to inefficient components placement and also the lack of experience in PCB routing.
+So I decided to redo the components placement inorder to make the routing easier and more efficient.
+
+![Documentation](assets/images/Journal/September11.0.png)
+![Documentation](assets/images/Journal/September11.1.png)
+![Documentation](assets/images/Journal/September11.2.png)
+![Documentation](assets/images/Journal/September11.3.png)
+![Documentation](assets/images/Journal/September11.4.png)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/KzY4xmlv9PIN)
+-[Lapse](https://lapse.hackclub.com/timelapse/Ul62O42vbcV5)
+
+**Total time spent: 3 hours  24 minutes**
+
+# September 12 : Vehicle node completion and Relay node PCB desinging
+
+Completed the vehicle node pcb design and started the relay node pcb design.
+
+![Documentation](assets/images/Journal/September12.0.png)
+![Documentation](assets/images/Journal/September12.1.png)
+![Documentation](assets/images/Journal/September12.2.png)
+![Documentation](assets/images/Journal/September12.3.png)
+![Documentation](assets/images/Journal/September12.4.png)
+![Documentation](assets/images/Journal/September12.5.png)
+![Documentation](assets/images/Journal/September12.6.png)
+![Documentation](assets/images/Journal/September12.7.png)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/ORXdWx_7uSSo)
+-[Lapse](https://lapse.hackclub.com/timelapse/3pI1MOHgRht_)
+-[Lapse](https://lapse.hackclub.com/timelapse/aJULvgt9BHPJ)
+-[Lapse](https://lapse.hackclub.com/timelapse/5cZHhlXMjuUY)
+**Total time spent: 4 hours  22 minutes**
+
+
+# September 15 : PCB Design completed
+Finally completed the PCB design for all PCB.
+Did some silkscreen logo placement asnd added some text to the silkscreen layer.      
+
+
+![Documentation](assets/images/Journal/September15.0.png)
+![Documentation](assets/images/Journal/September15.1.png)
+![Documentation](assets/images/Journal/September15.2.png)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/NRGSgt4EPpnt)
+
+**Total time spent: 2 hours**
+
+# September 18 : Vehicle Node Case Designing
+
+Started the case designing for the vehicle node.
+finally i felt like i am getting ahead after being studk for so long in the PCB design and schematics designing.
+reviewing the datasheets and redesigning everything again and again was both frustrating and enjoying at times.
+
+![Documentation](assets/images/Journal/September18.0.png)
+![Documentation](assets/images/Journal/September18.1.png)
+![Documentation](assets/images/Journal/September18.2.png)
+![Documentation](assets/images/Journal/September18.3.png)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/vBgm35VssLQM)
+
+**Total time spent: 2 hours  50 minutes**
+
+# September 21 : Did assembly of buttons
+
+Designed the button and assembled it using the align tool.
+
+-[Lapse](https://lapse.hackclub.com/timelapse/1IBW2LysMw2Q)
+
+**Total time spent: 4 minutes**
+
+# September 24 : Added Antenna connectors holes
+
+added coorect size of sketches for the antenna connector holes.
+
+-[Lapse](https://lapse.hackclub.com/timelapse/Mo3BG-vl9tuq)
+
+**Total time spent: 8 minutes**
+
+# September 25 : Fixed the button in the case and led alignment in PCB
+
+Did some fixing in the top cover of the vehicle node case. Redesigned the button to make it able to fit and be able to use properly.
+Last time I designed it without thinking about how will it get in that hole if i make the cylederical narrow mid with joined wider top and bottom.
+So I redesigned it to be sepearated top and bottom and noqw it will be able to overcome the prior issue.
+
+Also did some fixing in the PCB led indicators placement. Although I could not make a bit fat change and improvement in the looks as of now but I think its better 
+than previous one. I will try to make it better in the next iteration of PCB design.
+
+![Documentation](assets/images/Journal/September25.0.png)
+![Documentation](assets/images/Journal/September25.1.png)
+![Documentation](assets/images/Journal/September25.2.png)
+![Documentation](assets/images/Journal/September25.3.png)
+![Documentation](assets/images/Journal/September25.4.png)
+![Documentation](assets/images/Journal/September25.5.png)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/BpI8_1GiB8Tc)
+-[Lapse](https://lapse.hackclub.com/timelapse/xLXZjsi9vt60)
+
+**Total time spent: 1 hours  46 minutes**
+
+# September 29 : Relay Node Case Designing
+
+Imported the relay node PCB into fusion 360 and started designing the case for it.
+Did the buttons , battery cover etc just like the vehicle node case.
+I forgot the battery holder dimrnsions so took a reference from the vehicle node case design.
+
+![Documentation](assets/images/Journal/September29.0.png)
+![Documentation](assets/images/Journal/September29.1.png)
+![Documentation](assets/images/Journal/September29.2.png)
+![Documentation](assets/images/Journal/September29.3.png)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/tVTwTWRjkFMt)
+-[Lapse](https://lapse.hackclub.com/timelapse/s07hQxTj-hWg)
+-[Lapse](https://lapse.hackclub.com/timelapse/Rt1oCnPwtjmD)
+
+**Total time spent: 2 hours  7 minutes**
+
+# September 30 : Added texts to the case top cover
+
+Added some text on the cover of the case to fill the empty space and also to make it look more cool and good.
+
+![Documentation](assets/images/Journal/September30.0.png)
+![Documentation](assets/images/Journal/September30.1.png)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/QWbxXDP_rPG7)
+
+**Total time spent: 1 hours  30 minutes**
