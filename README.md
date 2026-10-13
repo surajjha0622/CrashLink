@@ -57,7 +57,7 @@ If LTE is unavailable, CrashLink automatically switches to a LoRa relay network,
 ### Enclosure
 
 <p align="center">
-<img src="assets/images/Journal/June20.0.png" width="700">
+<img src="assets/images/vehicle_node3.png" width="700">
 </p>
 
 ---
@@ -80,7 +80,7 @@ If LTE is unavailable, CrashLink automatically switches to a LoRa relay network,
 ### Enclosure
 
 <p align="center">
-<img src="assets/images/Journal/June20.2.png" width="700">
+<img src="assets/images/relay_node2.png" width="700">
 </p>
 
 ---
@@ -102,7 +102,7 @@ If LTE is unavailable, CrashLink automatically switches to a LoRa relay network,
 ### Enclosure
 
 <p align="center">
-<img src="assets/images/Journal/June20.1.png" width="700">
+<img src="assets/images/vehicle_node2.png" width="700">
 </p>
 
 ---
@@ -169,9 +169,13 @@ If LTE is unavailable, CrashLink automatically switches to a LoRa relay network,
  | Flux | 1 | Soldering | $5 |
  | Fume Extractor | 1 | Indoor solering safety | $20 |
 
+---
 
 ## Notes
  - Quantities may be adjusted during prototype testing and validiation.
+ - Currently the Vehicle node and gateway node uses same pcb and enclosure design to save pcb fabrication costs due to different designs for each node.
+
+---
 
  ## Estimates Budget
  | Category | Estimated Cost ($) |
