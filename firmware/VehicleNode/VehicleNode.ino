@@ -1,44 +1,75 @@
-#include <LoRa.h>
-#include <Wire.h>
 #include <SPI.h>
-#include <SoftwareSerial.h>
-#include <Adafruit_Sensor.h>
-#include <Adafruit_MPU6050.h>
-#define THRESHOLD 15.0
+#include <LoRa.h>
+#include "../common/CrashLinkProtocol.h"
 
+#define VEHICLE_ID 1
+#define GPS_RX 16
+#define GPS_TX 17
+#define BUZZER_PIN 25
 
-Adafruit_MPU6050 mpu;
+uint32_t sequenceNo = 0;
+bool simulatedCrash = false;
+unsigned long lastHeartbeat = 0;
 
+void sendPacket(uint8_t type) {
+  CrashPacket p = {};
 
-void setup () 
-   {
-      Serial.begin(115200);
-      if (!mpu.begin()) {
-        Serial.println("Failed to find MPU6050 chip");
-        while (1);
-        }
-      }
-          
-   };
-void loop () 
-   {detectCrash();
-      if (totalAccel > THRESHOLD) {
-      Serial.println("Crash detected! Sending alert...");
-      sendAlert();
-   }
-          
-   };
+  strncpy(p.magic, CL_MAGIC, sizeof(p.magic) - 1);
+  p.source = VEHICLE_ID;
+  p.lastHop = VEHICLE_ID;
+  p.type = type;
+  p.sequence = ++sequenceNo;
 
-void detectCrash() {
-  sensors_event_t a, g, temp;
-  mpu.getEvent(&a, &g, &temp);
-  float totalAccel = sqrt(sq(a.acceleration.x) + sq(a.acceleration.y) + sq(a.acceleration.z));
-   
-}
+  // Replace with actual NEO-6M GPS parsing.
+  p.latitude = 0.0f;
+  p.longitude = 0.0f;
 
-void sendAlert() {
+  // Flags currently indicate no validated sensor data.
+  p.sensorFlags = 0;
 
   LoRa.beginPacket();
-  LoRa.print(alertMessage);
-  LoRa.endPacket();
-}  
+  LoRa.write((uint8_t*)&p, sizeof(p));
+
+  if (LoRa.endPacket() == 1) {
+    Serial.printf("TX type=%u seq=%lu\n",
+                  p.type, (unsigned long)p.sequence);
+  } else {
+    Serial.println("LoRa transmission failed");
+  }
+}
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(BUZZER_PIN, OUTPUT);
+  digitalWrite(BUZZER_PIN, LOW);
+
+  if (!initCrashLinkRadio()) {
+    Serial.println("LoRa initialization failed");
+    while (true) delay(1000);
+  }
+
+  Serial.println("Vehicle node ready");
+  Serial.println("Enter C to simulate a crash alert");
+}
+
+void loop() {
+  if (Serial.available()) {
+    char c = Serial.read();
+
+    if (c == 'C' || c == 'c') {
+      simulatedCrash = true;
+      digitalWrite(BUZZER_PIN, HIGH);
+      sendPacket(1);
+    }
+
+    if (c == 'R' || c == 'r') {
+      simulatedCrash = false;
+      digitalWrite(BUZZER_PIN, LOW);
+    }
+  }
+
+  if (millis() - lastHeartbeat >= 5000) {
+    lastHeartbeat = millis();
+    sendPacket(0);
+  }
+}
