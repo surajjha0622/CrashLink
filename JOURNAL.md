@@ -568,3 +568,13 @@ Added some text on the cover of the case to fill the empty space and also to mak
 -[Lapse](https://lapse.hackclub.com/timelapse/QWbxXDP_rPG7)
 
 **Total time spent: 1 hours  30 minutes**
+
+# October 16 : Added texts to Vehicle Node Case top cover
+
+Added texts to the top cover of the vehicle node case.
+
+![Documentation](assets/images/Journal/vehicle_node3.png)
+
+-[Lapse](https://lapse.hackclub.com/timelapse/yMp9GE6zSlmw)
+
+**Total time spent: 1 hours  9 minutes**
