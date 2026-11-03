@@ -573,7 +573,7 @@ Added some text on the cover of the case to fill the empty space and also to mak
 
 Added texts to the top cover of the vehicle node case.
 
-![Documentation](assets/images/Journal/vehicle_node3.png)
+![Documentation](assets/images/vehicle_node3.png)
 
 -[Lapse](https://lapse.hackclub.com/timelapse/yMp9GE6zSlmw)
 
